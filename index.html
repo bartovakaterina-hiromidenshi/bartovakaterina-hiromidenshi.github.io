@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="cs">
+
 <head>
   <meta charset="utf-8">
 
@@ -13,12 +14,15 @@
     content="Portfolio Kateřiny Bártové zaměřené na infrastrukturu, DevOps a kybernetickou bezpečnost."
   >
 
-  <title>Kateřina Bártová | Infrastructure & Security</title>
+  <title>Kateřina Bártová | Infrastructure · DevOps · Security</title>
 
   <link rel="stylesheet" href="./style.css">
 </head>
 
+
 <body>
+
+  <!-- HERO -->
 
   <header class="hero">
 
@@ -30,128 +34,145 @@
       <a href="#contact">Kontakt</a>
     </nav>
 
+
     <div class="hero-content">
 
-  <div class="hero-copy">
+      <!-- LEVÁ ČÁST HERO -->
 
-    <p class="eyebrow">
-      Infrastructure · DevOps · Security
-    </p>
+      <div class="hero-copy">
 
-    <h1>Kateřina Bártová</h1>
+        <p class="eyebrow">
+          Infrastructure · DevOps · Security
+        </p>
 
-    <p class="intro">
-      IT specialistka se zkušenostmi v infrastruktuře,
-      DevOps a kybernetické bezpečnosti.
-    </p>
+        <h1>
+          Kateřina Bártová
+        </h1>
 
-    <div class="hero-buttons">
+        <p class="intro">
+          IT specialistka se zkušenostmi v infrastruktuře,
+          DevOps a kybernetické bezpečnosti.
+        </p>
 
-      <a
-        class="button primary"
-        href="#projects"
+
+        <div class="hero-buttons">
+
+          <a
+            class="button primary"
+            href="#projects"
+          >
+            Moje projekty
+          </a>
+
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/katebartova199820"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button secondary"
+            href="./Katerina_Bartova_CV_CZ__.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Stáhnout CV
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- PRAVÁ ČÁST HERO: TERMINÁL -->
+
+      <div
+        class="terminal"
+        aria-label="Terminál s profesním zaměřením"
       >
-        Moje projekty
-      </a>
 
-      <a
-        class="button secondary"
-        href="https://www.linkedin.com/in/katebartova199820"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
+        <div class="terminal-header">
 
-      <a
-        class="button secondary"
-        href="./Katerina_Bartova_CV_CZ__.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Stáhnout CV
-      </a>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+
+          <span class="terminal-title">
+            katerina@portfolio:~
+          </span>
+
+        </div>
+
+
+        <div class="terminal-body">
+
+          <p>
+            <span class="terminal-prompt">$</span>
+            whoami
+          </p>
+
+          <p class="terminal-output">
+            katerina
+          </p>
+
+
+          <p>
+            <span class="terminal-prompt">$</span>
+            cat focus.txt
+          </p>
+
+          <p class="terminal-output">
+            Linux
+          </p>
+
+          <p class="terminal-output">
+            DevOps
+          </p>
+
+          <p class="terminal-output">
+            Security
+          </p>
+
+
+          <p>
+            <span class="terminal-prompt">$</span>
+            uptime
+          </p>
+
+          <p class="terminal-output">
+            almost 3 years in IT, still curious
+          </p>
+
+
+          <p class="terminal-command">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cursor">_</span>
+          </p>
+
+        </div>
+
+      </div>
 
     </div>
 
-  </div>
+  </header>
 
 
-  <div
-    class="terminal"
-    aria-label="Terminál s profesním zaměřením"
-  >
-
-    <div class="terminal-header">
-
-      <span class="terminal-dot"></span>
-      <span class="terminal-dot"></span>
-      <span class="terminal-dot"></span>
-
-      <span class="terminal-title">
-        katerina@portfolio:~
-      </span>
-
-    </div>
-
-
-    <div class="terminal-body">
-
-      <p>
-        <span class="terminal-prompt">$</span>
-        whoami
-      </p>
-
-      <p class="terminal-output">
-        katerina
-      </p>
-
-
-      <p>
-        <span class="terminal-prompt">$</span>
-        cat focus.txt
-      </p>
-
-      <p class="terminal-output">
-        Linux
-      </p>
-
-      <p class="terminal-output">
-        DevOps
-      </p>
-
-      <p class="terminal-output">
-        Security
-      </p>
-
-
-      <p>
-        <span class="terminal-prompt">$</span>
-        uptime
-      </p>
-
-      <p class="terminal-output">
-        almost 3 years in IT, still curious
-      </p>
-
-
-      <p class="terminal-command">
-        <span class="terminal-prompt">$</span>
-        <span class="terminal-cursor">_</span>
-      </p>
-
-    </div>
-
-  </div>
-
-</div>
-
+  <!-- HLAVNÍ OBSAH -->
 
   <main>
 
+
+    <!-- O MNĚ -->
+
     <section id="about">
 
-      <p class="section-label">O mně</p>
+      <p class="section-label">
+        O mně
+      </p>
 
       <h2>
         Technologie mě baví i mimo pracovní dobu
@@ -173,13 +194,21 @@
     </section>
 
 
+    <!-- TECHNOLOGIE -->
+
     <section id="skills">
 
-      <p class="section-label">Technologie</p>
+      <p class="section-label">
+        Technologie
+      </p>
 
-      <h2>S čím pracuji</h2>
+      <h2>
+        S čím pracuji
+      </h2>
+
 
       <div class="tags">
+
         <span>Linux</span>
         <span>Kubernetes</span>
         <span>Docker</span>
@@ -192,16 +221,24 @@
         <span>PKI</span>
         <span>PostgreSQL</span>
         <span>Oracle Database</span>
+
       </div>
 
     </section>
 
 
+    <!-- PRACOVNÍ ZKUŠENOSTI -->
+
     <section id="experience">
 
-      <p class="section-label">Praxe</p>
+      <p class="section-label">
+        Praxe
+      </p>
 
-      <h2>Pracovní zkušenosti</h2>
+      <h2>
+        Pracovní zkušenosti
+      </h2>
+
 
       <article class="card">
 
@@ -209,7 +246,9 @@
           Seznam.cz · srpen 2025 až červenec 2026
         </p>
 
-        <h3>Security Engineer DevOps</h3>
+        <h3>
+          Security Engineer DevOps
+        </h3>
 
         <p>
           CI/CD automatizace, Kubernetes, Docker,
@@ -226,7 +265,9 @@
           Unnits · duben 2024 až červenec 2025
         </p>
 
-        <h3>Junior DevOps Engineer</h3>
+        <h3>
+          Junior DevOps Engineer
+        </h3>
 
         <p>
           GitLab CI/CD, nasazování aplikací, Kubernetes,
@@ -242,7 +283,9 @@
           Valeo · listopad 2023 až duben 2024
         </p>
 
-        <h3>Oracle Backup Specialist Trainee</h3>
+        <h3>
+          Oracle Backup Specialist Trainee
+        </h3>
 
         <p>
           Správa zálohovací infrastruktury, Commvault,
@@ -254,17 +297,27 @@
     </section>
 
 
+    <!-- PROJEKTY -->
+
     <section id="projects">
 
-      <p class="section-label">Portfolio</p>
+      <p class="section-label">
+        Portfolio
+      </p>
 
-      <h2>Projekty a technické laby</h2>
+      <h2>
+        Projekty a technické laby
+      </h2>
+
 
       <div class="project-grid">
 
+
         <article class="card">
 
-          <h3>Linux Administration Lab</h3>
+          <h3>
+            Linux Administration Lab
+          </h3>
 
           <p>
             Praktický lab zaměřený na systemd, SSH,
@@ -281,7 +334,9 @@
 
         <article class="card">
 
-          <h3>Secure CI/CD Pipeline</h3>
+          <h3>
+            Secure CI/CD Pipeline
+          </h3>
 
           <p>
             Pipeline pro sestavení, otestování,
@@ -298,7 +353,9 @@
 
         <article class="card">
 
-          <h3>Kubernetes Security Lab</h3>
+          <h3>
+            Kubernetes Security Lab
+          </h3>
 
           <p>
             Praktické ukázky RBAC, ServiceAccounts,
@@ -312,21 +369,29 @@
 
         </article>
 
+
       </div>
 
     </section>
 
 
+    <!-- KONTAKT -->
+
     <section id="contact">
 
-      <p class="section-label">Kontakt</p>
+      <p class="section-label">
+        Kontakt
+      </p>
 
-      <h2>Spojení</h2>
+      <h2>
+        Spojení
+      </h2>
 
       <p>
         Hledám technickou roli v oblasti infrastruktury,
         DevOps nebo kybernetické bezpečnosti.
       </p>
+
 
       <div class="contact-links">
 
@@ -338,6 +403,7 @@
           LinkedIn
         </a>
 
+
         <a
           href="./Katerina_Bartova_CV_CZ__.pdf"
           target="_blank"
@@ -345,6 +411,7 @@
         >
           CV
         </a>
+
 
         <a href="mailto:bartova.katerina98@seznam.cz">
           E-mail
@@ -354,12 +421,19 @@
 
     </section>
 
+
   </main>
 
 
+  <!-- FOOTER -->
+
   <footer>
-    <p>© 2026 Kateřina Bártová</p>
+    <p>
+      © 2026 Kateřina Bártová
+    </p>
   </footer>
 
+
 </body>
+
 </html>
