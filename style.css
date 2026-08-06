@@ -21,8 +21,10 @@ html {
 
 body {
   margin: 0;
+
   background: var(--background);
   color: var(--text);
+
   font-family:
     Inter,
     system-ui,
@@ -30,6 +32,7 @@ body {
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
+
   line-height: 1.7;
 }
 
@@ -45,8 +48,12 @@ footer {
   margin-inline: auto;
 }
 
+
+/* HERO */
+
 .hero {
   min-height: 78vh;
+
   background:
     radial-gradient(
       circle at 78% 30%,
@@ -61,23 +68,33 @@ footer {
     );
 }
 
+
+/* NAVIGATION */
+
 .navigation {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+
   gap: 24px;
+
   padding-block: 25px;
 }
 
 .navigation a {
   color: var(--text);
+
   font-size: 0.95rem;
+
   text-decoration: none;
 }
 
 .navigation a:hover {
   color: var(--accent);
 }
+
+
+/* HERO CONTENT */
 
 .hero-content {
   padding-block: 110px 130px;
@@ -86,57 +103,80 @@ footer {
 .eyebrow,
 .section-label {
   color: var(--accent);
+
   font-size: 0.78rem;
   font-weight: 700;
+
   letter-spacing: 0.16em;
+
   text-transform: uppercase;
 }
 
 h1 {
   max-width: 850px;
+
   margin: 0;
+
   font-size: clamp(3rem, 9vw, 6.8rem);
+
   line-height: 0.98;
 }
 
 h2 {
   max-width: 750px;
+
   margin-top: 0;
+
   font-size: clamp(2rem, 5vw, 3rem);
+
   line-height: 1.15;
 }
 
 h3 {
   margin-top: 0;
+
   font-size: 1.3rem;
 }
 
 .intro {
   max-width: 680px;
+
   margin-top: 28px;
+
   color: var(--muted);
+
   font-size: 1.25rem;
 }
+
+
+/* BUTTONS */
 
 .hero-buttons,
 .contact-links {
   display: flex;
   flex-wrap: wrap;
+
   gap: 14px;
+
   margin-top: 30px;
 }
 
 .button,
 .contact-links a {
   display: inline-block;
+
   padding: 12px 20px;
+
   border-radius: 8px;
+
   font-weight: 700;
+
   text-decoration: none;
 }
 
 .primary {
   background: var(--accent);
+
   color: #041317;
 }
 
@@ -147,14 +187,19 @@ h3 {
 .secondary,
 .contact-links a {
   border: 1px solid var(--border);
+
   color: var(--text);
 }
 
 .secondary:hover,
 .contact-links a:hover {
   border-color: var(--accent);
+
   color: var(--accent);
 }
+
+
+/* MAIN */
 
 main {
   padding-block: 90px;
@@ -162,34 +207,50 @@ main {
 
 section {
   margin-bottom: 110px;
+
   scroll-margin-top: 30px;
 }
 
 section > p:not(.section-label) {
   max-width: 760px;
+
   color: var(--muted);
 }
+
+
+/* TECHNOLOGIES */
 
 .tags {
   display: flex;
   flex-wrap: wrap;
+
   gap: 12px;
+
   margin-top: 30px;
 }
 
 .tags span {
   padding: 8px 15px;
+
   border: 1px solid var(--border);
   border-radius: 999px;
+
   background: var(--background-soft);
 }
 
+
+/* CARDS */
+
 .card {
   margin-bottom: 20px;
+
   padding: 26px;
+
   border: 1px solid var(--border);
   border-radius: 14px;
+
   background: var(--surface);
+
   transition:
     transform 160ms ease,
     background 160ms ease;
@@ -197,6 +258,7 @@ section > p:not(.section-label) {
 
 .card:hover {
   transform: translateY(-3px);
+
   background: var(--surface-hover);
 }
 
@@ -206,34 +268,55 @@ section > p:not(.section-label) {
 
 .card-meta {
   margin-bottom: 8px;
+
   color: var(--accent) !important;
+
   font-size: 0.9rem;
 }
 
+
+/* PROJECTS */
+
 .project-grid {
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
+
   gap: 18px;
 }
 
 .project-status {
   display: inline-block;
+
   margin-top: 10px;
+
   color: var(--accent);
+
   font-size: 0.88rem;
   font-weight: 700;
 }
 
+
+/* FOOTER */
+
 footer {
   padding-block: 30px;
+
   border-top: 1px solid var(--border);
+
   color: var(--muted);
+
   text-align: center;
 }
 
+
+/* MOBILE */
+
 @media (max-width: 760px) {
+
   .navigation {
     justify-content: flex-start;
+
     gap: 15px;
   }
 
